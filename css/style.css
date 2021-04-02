@@ -23,11 +23,11 @@ img {
 }
 
 .bg-mobile {
-  width: 200px;
+  width: 150px;
   max-width: 375px;
   margin: auto;
   position: absolute;
-  transform: translate(30px, -100px);
+  transform: translate(10px, -100px);
 }
 
 .box {
