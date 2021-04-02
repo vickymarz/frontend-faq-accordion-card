@@ -1,11 +1,3 @@
-@font-face {
-  font-family: "Kumbh-Regular";
-  src: url(../Kumbh_Sans/KumbhSans-Regular.ttf);
-}
-@font-face {
-  font-family: "Kumbh-Bold";
-  src: url(../Kumbh_Sans/KumbhSans-Bold.ttf);
-}
 *,
 *::before,
 *::after {
@@ -31,11 +23,11 @@ img {
 }
 
 .bg-mobile {
-  width: 300px;
+  width: 200px;
   max-width: 375px;
   margin: auto;
   position: absolute;
-  transform: translate(25px, -120px);
+  transform: translate(50px, -100px);
 }
 
 .box {
@@ -50,13 +42,13 @@ img {
   background-size: 75%;
   background-color: white;
   border-radius: 30px;
+  box-shadow: 0 0 7px $Very-dark-desaturated-blue;
 }
 .faq__container .faq__section {
   padding-top: 12rem;
 }
 .faq__container .faq__section h1 {
   text-align: center;
-  font-family: Kumbh-Bold;
   font-weight: 700;
   font-size: 3rem;
 }
@@ -74,7 +66,6 @@ img {
   padding-bottom: 1rem;
 }
 .faq__container .faq__section .questionare .questionare__texts .text--flex p {
-  font-family: Kumbh-Regular;
   font-weight: 400;
   font-size: 1.2rem;
 }
@@ -94,7 +85,6 @@ img {
   cursor: pointer;
 }
 .faq__container .faq__section .questionare .questionare__texts p {
-  font-family: Kumbh-Regular;
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 1.5;
