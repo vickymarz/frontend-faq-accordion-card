@@ -23,11 +23,11 @@ img {
 }
 
 .bg-mobile {
-  width: 200px;
+  width: 190px;
   max-width: 375px;
   margin: auto;
   position: absolute;
-  transform: translate(15px, -110px);
+  transform: translate(12px, -110px);
 }
 
 .box {
@@ -37,7 +37,7 @@ img {
 .faq__container {
   width: 90%;
   max-width: 375px;
-  margin: 10rem auto;
+  margin: 15rem auto;
   background: url(../images/bg-pattern-mobile.svg) no-repeat center top;
   background-size: 75%;
   background-color: white;
