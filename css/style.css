@@ -27,7 +27,7 @@ img {
   max-width: 375px;
   margin: auto;
   position: absolute;
-  transform: translate(25px, -110px);
+  transform: translate(20px, -150px);
 }
 
 .box {
