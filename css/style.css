@@ -27,7 +27,7 @@ img {
   max-width: 375px;
   margin: auto;
   position: absolute;
-  transform: translate(50px, -100px);
+  transform: translate(30px, -100px);
 }
 
 .box {
@@ -42,7 +42,7 @@ img {
   background-size: 75%;
   background-color: white;
   border-radius: 30px;
-  box-shadow: 0 0 7px $Very-dark-desaturated-blue;
+  box-shadow: 0 0 10px $Very-dark-desaturated-blue;
 }
 .faq__container .faq__section {
   padding-top: 12rem;
