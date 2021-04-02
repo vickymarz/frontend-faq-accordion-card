@@ -1,11 +1,4 @@
-@font-face {
-	font-family: 'Kumbh-Regular';
-	src: url(../Kumbh_Sans/KumbhSans-Regular.ttf);
-}
-@font-face {
-	font-family: 'Kumbh-Bold';
-	src: url(../Kumbh_Sans/KumbhSans-Bold.ttf);
-}
+
 // Variables
 // Background colors
 $Soft-blue: hsl(240, 73%, 65%);
@@ -47,11 +40,11 @@ img {
 	max-width: 100%;
 }
 .bg-mobile {
-	width: 300px;
+	width: 250px;
 	max-width: 375px;
 	margin: auto;
 	position: absolute;
-	transform: translate(25px, -120px);
+	transform: translate(50px, -100px);
 }
 .box {
 	display: none;
@@ -64,12 +57,11 @@ img {
 	background-size: 75%;
 	background-color: white;
 	border-radius: 30px;
-
+        box-shadow: 0 0 5px $Very-dark-desaturated-blue;
 	.faq__section {
 		padding-top: 12rem;
 		h1 {
 			text-align: center;
-			font-family: Kumbh-Bold;
 			font-weight: $weight-bold;
 			font-size: 3rem;
 		}
@@ -105,7 +97,6 @@ img {
 					}
 				}
 				p {
-					font-family: Kumbh-Regular;
 					font-weight: $weight-regular;
 					font-size: 1.2rem;
 					line-height: 1.5;
