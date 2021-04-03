@@ -68,7 +68,7 @@ img {
 .faq__container .faq__section .questionare .questionare__texts .text--flex p {
   font-weight: 400;
   font-size: 1.2rem;
-  padding-bottom: 10px;
+  padding-bottom: 12px;
 }
 .faq__container .faq__section .questionare .questionare__texts .text--flex button {
   border: none;
