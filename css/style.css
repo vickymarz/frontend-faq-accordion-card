@@ -14,7 +14,7 @@ html {
 body {
   background: linear-gradient(#af67e9, #6565e7);
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 img {
