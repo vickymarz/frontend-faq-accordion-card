@@ -46,6 +46,8 @@ img {
 }
 .faq__container .faq__section {
   padding-top: 12rem;
+  max-height: 600px;
+  overflow-y: scroll;
 }
 .faq__container .faq__section h1 {
   text-align: center;
@@ -102,7 +104,13 @@ img {
   border-right: none;
   border-width: thin;
 }
-
+.faq__section::-webkit-scrollbar {
+  display:none;
+}
+.faq__section {
+  -ms-overflow-style: none;
+   scrollbar-width: none;
+}
 @media only screen and (min-width: 1100px) {
   .faq__container {
     width: 70%;
@@ -134,6 +142,7 @@ img {
     padding: 3rem;
     margin: initial;
     flex-basis: 55%;
+    max-height: 465px;
   }
   .faq__container .faq__section h1 {
     text-align: left;
