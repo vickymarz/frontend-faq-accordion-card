@@ -31,7 +31,7 @@
 						<div class="questionare__texts">
 							<div class="text--flex one" >
 								<p id="question-1">How many team members can I invite?</p>
-								<button>
+								<button aria-label="arrow-down"> 
 									<img
 										src="./images/icon-arrow-down.svg"
 										alt=""
@@ -43,12 +43,13 @@
 								You can invite up to 2 additional users on the Free plan. There
 								is no limit on team members for the Premium plan.
 							</p>
-							<input type="text" name="text" id="text" />
+							<!-- <input type="text" name="text" id="text" /> -->
+							<hr>
 						</div>
 						<div class="questionare__texts">
 							<div class="text--flex two">
 								<p id="question-2">What is the maximum file upload size?</p>
-								<button>
+								<button aria-label="arrow-down">
 									<img
 										src="./images/icon-arrow-down.svg"
 										alt=""
@@ -60,12 +61,12 @@
 								No more than 2GB. All files in your account must fit your
 								allotted storage space.
 							</p>
-							<input type="text" name="text" id="text" />
+							<hr>
 						</div>
 						<div class="questionare__texts">
 							<div class="text--flex three">
 								<p id="question-3">How do I reset my password?</p>
-								<button>
+								<button aria-label="arrow-down">
 									<img
 										src="./images/icon-arrow-down.svg"
 										alt=""
@@ -77,12 +78,12 @@
 								Click “Forgot password” from the login page or “Change password”
 								from your profile page. A reset link will be emailed to you.
 							</p>
-							<input type="text" name="text" id="text" />
+							<hr>
 						</div>
 						<div class="questionare__texts">
 							<div class="text--flex four">
 								<p id="question-4">Can I cancel my subscription?</p>
-								<button>
+								<button aria-label="arrow-down">
 									<img
 										src="./images/icon-arrow-down.svg"
 										alt=""
@@ -94,12 +95,12 @@
 								Yes! Send us a message and we’ll process your request no
 								questions asked.
 							</p>
-							<input type="text" name="text" id="text" />
+						<hr>
 						</div>
 						<div class="questionare__texts">
 							<div class="text--flex five">
 								<p id="question-5">Do you provide additional support?</p>
-								<button>
+								<button aria-label="arrow-down">
 									<img
 										src="./images/icon-arrow-down.svg"
 										alt=""
@@ -111,14 +112,14 @@
 								Chat and email support is available 24/7. Phone lines are open
 								during normal business hours.
 							</p>
-							<input type="text" name="text" id="text" />
+						<hr>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<script>
-			function showAnswer(answer,question){
+function showAnswer(answer,question){
 
 if(answer.style.display == "block"){
 answer.style.display = "none";
